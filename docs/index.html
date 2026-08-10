@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Portfólio de Renan Henrique Machado, desenvolvedor full stack com experiência em aplicações web e soluções de dados."
+    >
+    <meta name="theme-color" content="#0d1117">
+    <meta property="og:title" content="Renan Machado | Desenvolvedor de Software">
+    <meta
+      property="og:description"
+      content="Aplicações web e soluções de dados, do problema ao deploy."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rmachado01.github.io/RMachado01/">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/122324617?v=4">
+    <title>Renan Machado | Desenvolvedor de Software</title>
+    <link rel="icon" href="./assets/avatar.png" type="image/png">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="RM - Renan Machado, início">RM</a>
+        <div class="nav-links">
+          <a href="#projetos">Projetos</a>
+          <a href="#sobre">Sobre</a>
+          <a class="nav-cta" href="mailto:r.machadorhm@gmail.com">Contato</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero shell" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Desenvolvedor full stack e dados</p>
+          <h1 id="hero-title">Código que vira produto.</h1>
+          <p class="hero-text">
+            Construo aplicações web e soluções de dados, do requisito ao deploy, com testes e documentação.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Ver projetos</a>
+            <a class="button button-secondary" href="https://github.com/RMachado01">GitHub</a>
+          </div>
+        </div>
+
+        <a
+          class="hero-visual reveal"
+          href="https://minha-gestao-pearl.vercel.app"
+          aria-label="Abrir aplicação Minha Gestão"
+        >
+          <img
+            src="./assets/minha-gestao.png"
+            width="1440"
+            height="1000"
+            alt="Tela de acesso da aplicação Minha Gestão"
+            fetchpriority="high"
+          >
+        </a>
+      </section>
+
+      <section class="proof shell" aria-label="Resumo técnico">
+        <p>TypeScript e Python</p>
+        <p>Aplicações em produção</p>
+        <p>Testes e documentação</p>
+      </section>
+
+      <section class="projects shell section" id="projetos" aria-labelledby="projects-title">
+        <div class="section-heading reveal">
+          <h2 id="projects-title">Projetos que mostram a entrega completa</h2>
+          <p>Produtos funcionais, decisões técnicas explicadas e resultados que podem ser avaliados.</p>
+        </div>
+
+        <article class="project project-featured reveal">
+          <div class="project-copy">
+            <p class="project-kicker">Produto full stack</p>
+            <h3>Minha Gestão</h3>
+            <p>
+              PWA financeira para uso pessoal, familiar e profissional. Reúne contas compartilhadas,
+              planejamento, investimentos, modo offline, custos veiculares e um assistente com IA.
+            </p>
+            <ul class="tech-list">
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Supabase</li>
+              <li>PostgreSQL</li>
+              <li>Playwright</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://minha-gestao-pearl.vercel.app">Aplicação</a>
+              <a href="https://github.com/RMachado01/minha-gestao">Código</a>
+            </div>
+          </div>
+          <a class="project-media" href="https://minha-gestao-pearl.vercel.app">
+            <img
+              src="./assets/minha-gestao.png"
+              width="1440"
+              height="1000"
+              loading="lazy"
+              alt="Interface de autenticação do Minha Gestão"
+            >
+          </a>
+        </article>
+
+        <article class="project project-reverse reveal">
+          <div class="project-copy">
+            <p class="project-kicker">Experiência web</p>
+            <h3>ASLI Comercial</h3>
+            <p>
+              Presença digital institucional para uma distribuidora de produtos médicos. A interface
+              prioriza confiança, acessibilidade, clareza da oferta e contato comercial.
+            </p>
+            <ul class="tech-list">
+              <li>Next.js</li>
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>Motion</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://asli-ltda.vercel.app">Aplicação</a>
+              <a href="https://github.com/RMachado01/ASLI-LTDA">Código</a>
+            </div>
+          </div>
+          <a class="project-media" href="https://asli-ltda.vercel.app">
+            <img
+              src="./assets/asli.png"
+              width="1440"
+              height="1000"
+              loading="lazy"
+              alt="Página institucional da ASLI Comercial"
+            >
+          </a>
+        </article>
+
+        <article class="data-case reveal">
+          <div>
+            <p class="project-kicker">Engenharia de dados</p>
+            <h3>Despesas Federais</h3>
+          </div>
+          <p>
+            Pipeline ETL com dados reais do Portal da Transparência, armazenamento em DuckDB,
+            testes automatizados e dashboard Streamlit. A análise cobre 2019 a 2025 e recalcula os
+            insights quando novos períodos são carregados.
+          </p>
+          <div class="data-metrics">
+            <div><strong>2019-2025</strong><span>período analisado</span></div>
+            <div><strong>10,7%</strong><span>crescimento anual composto</span></div>
+            <div><strong>76,2%</strong><span>concentração em 3 ministérios</span></div>
+          </div>
+          <a class="text-link" href="https://github.com/RMachado01/despesas-federais-transparencia">
+            Ver código e documentação
+          </a>
+        </article>
+      </section>
+
+      <section class="about shell section" id="sobre" aria-labelledby="about-title">
+        <div class="about-copy reveal">
+          <h2 id="about-title">Código, contexto e responsabilidade pela entrega.</h2>
+          <p>
+            Sou formado em Análise e Desenvolvimento de Sistemas. Gosto de entender o problema,
+            escolher uma arquitetura proporcional e deixar o projeto fácil de executar, testar e manter.
+          </p>
+        </div>
+
+        <dl class="capabilities reveal">
+          <div>
+            <dt>Front-end</dt>
+            <dd>TypeScript, React, Next.js, HTML e CSS</dd>
+          </div>
+          <div>
+            <dt>Back-end e dados</dt>
+            <dd>Python, APIs REST, PostgreSQL, Supabase, Pandas e DuckDB</dd>
+          </div>
+          <div>
+            <dt>Qualidade</dt>
+            <dd>Vitest, Playwright, pytest, validação de tipos e documentação técnica</dd>
+          </div>
+          <div>
+            <dt>Entrega</dt>
+            <dd>GitHub, Vercel, Streamlit, integração contínua e revisão responsiva</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="contact shell section reveal" id="contato" aria-labelledby="contact-title">
+        <p class="eyebrow">Disponível para oportunidades</p>
+        <h2 id="contact-title">Vamos conversar sobre o próximo desafio.</h2>
+        <p>Busco oportunidades em desenvolvimento de software, full stack e dados.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:r.machadorhm@gmail.com">Enviar e-mail</a>
+          <a class="button button-secondary" href="https://github.com/RMachado01">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer shell">
+      <p>Renan Henrique Machado</p>
+      <a href="https://github.com/RMachado01">github.com/RMachado01</a>
+    </footer>
+  </body>
+</html>

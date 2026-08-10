@@ -6,7 +6,7 @@
 
 Desenvolvedor de software formado em Análise e Desenvolvimento de Sistemas. Construo aplicações web e soluções de dados do problema ao deploy, com atenção a arquitetura, testes e experiência de uso.
 
-[Portfólio](https://rmachado01.github.io/RMachado01/) · [E-mail](mailto:r.machadorhm@gmail.com)
+[Portfólio](https://rmachado01.github.io/RMachado01/) · [GitHub](https://github.com/RMachado01)
 
 </div>
 
@@ -36,4 +36,4 @@ Desenvolvedor de software formado em Análise e Desenvolvimento de Sistemas. Con
 Estou aberto a oportunidades em desenvolvimento de software, full stack e dados.
 
 - São Paulo, Brasil
-- [r.machadorhm@gmail.com](mailto:r.machadorhm@gmail.com)
+- [github.com/RMachado01](https://github.com/RMachado01)

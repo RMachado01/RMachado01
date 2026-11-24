@@ -568,3 +568,13 @@ h3 {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* Lista de tecnologias dentro dos cards de caso (Athenas) ocupa a linha inteira */
+.data-case .tech-list {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.data-case + .data-case {
+  margin-top: 24px;
+}
